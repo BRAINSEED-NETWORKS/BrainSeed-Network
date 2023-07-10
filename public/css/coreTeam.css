@@ -76,7 +76,8 @@ background-color: rgb(1, 126, 1);
 #leadTeam .leadTeamBorder .heading h1 {
     letter-spacing: 2px;
     padding: 2% 7%;
-    font-weight: 300;
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
     font-size: 3.5rem;
     text-align: center;
 }
@@ -90,11 +91,14 @@ background-color: rgb(1, 126, 1);
 #wholeTeam>h1 {
     letter-spacing: 2px;
     padding: 2% 7%;
-    font-weight: 300;
+    font-weight: inherit;
+    font-family: "Times New Roman", Times, serif;
     font-size: 3.5rem;
     height: 2%;
     width: 100%;
     text-align: center;
+    color: black;
+    font-style: oblique;
 }
 
 #wholeTeam #wholeTeamBorder {
@@ -117,16 +121,19 @@ background-color: rgb(1, 126, 1);
 }
 
 #wholeTeam .team:nth-of-type(odd) {
-    background-color: rgb(251, 251, 251);
+    background-color: #e9ecef;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 #wholeTeam .team h1 {
     width: 100%;
     /* border: 2px solid red; */
     letter-spacing: 2px;
-    font-weight: 200;
+    font-weight: bold;
     font-size: 3rem;
+    font-family: cursive;
     padding: 2rem 0;
+    color: forestgreen;
 }
 
 #wholeTeam .team .teamCardsHere {
@@ -143,6 +150,10 @@ background-color: rgb(1, 126, 1);
     align-content: center;
     justify-items: center;
     align-items: center;
+}
+
+#noGrid{
+    grid-template: none !important;
 }
 
 #wholeTeam .team .teamCardsHere .teamCard {
